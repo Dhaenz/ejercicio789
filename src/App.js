@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import ContactListComponent from './components/container/contactList'
+import ContactoListaComp from './components/container/contactoListaComp'
 
 function App() {
   return (
     <div className="App">
 
-      <ContactListComponent></ContactListComponent>
+      <ContactoListaComp></ContactoListaComp>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

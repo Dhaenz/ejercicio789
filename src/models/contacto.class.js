@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export class Contacto{
+export class Contacto {
     name = '';
     celphone = '';
     status = false;
@@ -19,5 +19,4 @@ Contacto.propTypes = {
     description: PropTypes.number,
     status: PropTypes.bool,
     email: PropTypes.string
-
 }
